@@ -18,6 +18,13 @@ ynh_script_progression "Stopping $app's systemd service..."
 ynh_systemctl --action="stop" --service="${app}"
 
 #=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+ynh_script_progression "Setting up source files..."
+
+ynh_setup_source --dest_dir="$install_dir"
+
+#=================================================
 # APP CONFIG FILES
 #=================================================
 ynh_script_progression "Updating $app's configuration files..."
