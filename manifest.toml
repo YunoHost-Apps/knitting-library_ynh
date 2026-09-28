@@ -52,8 +52,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ZeetLex/knitting-library/archive/refs/tags/0.9.6.tar.gz"
-    sha256 = "60ce104076cd00b050dd1c0524e0e5b379ad17299e954e7a1f3bea46b75bc3b5"
+    url = "https://github.com/ZeetLex/knitting-library/archive/67631a0760dad09aa8900b0ec32ecbe1166e2ed0.tar.gz"
+    sha256 = "56e9b2862bb3dc9d1914587cae84e516c4cd4c8cd9614c335e0783d3e5c03627"
 
     autoupdate.strategy = "latest_github_release"
 
