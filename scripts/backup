@@ -12,6 +12,9 @@ ynh_print_info "Declaring files to be backed up..."
 # BACKUP THE APP MAIN DIR
 #=================================================
 
+# Make sure to have a backup of the db, even when backing up without data_dir
+cp $data_dir/recipes.db $install_dir
+
 ynh_backup "$install_dir"
 
 #=================================================
