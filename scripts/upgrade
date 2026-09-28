@@ -60,7 +60,7 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 
 ynh_config_add_nginx
 
-ynh_config_add_systemd --service="${app}"   --template="fittrackee.service"
+ynh_config_add_systemd --service="${app}"   --template="systemd.service"
 
 yunohost service add "${app}" --description="Knitting Library main service" --log="/var/log/$app/$app.log"
 
