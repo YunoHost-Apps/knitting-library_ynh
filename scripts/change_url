@@ -39,8 +39,6 @@ ynh_script_progression "Starting $app's systemd services..."
 
 ynh_systemctl --service="${app}" --action="start"
 
-ynh_systemctl --service="${app}-workers" --action="start"
-
 #=================================================
 # END OF SCRIPT
 #=================================================
