@@ -52,12 +52,13 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ZeetLex/knitting-library/archive/67631a0760dad09aa8900b0ec32ecbe1166e2ed0.tar.gz"
-    sha256 = "56e9b2862bb3dc9d1914587cae84e516c4cd4c8cd9614c335e0783d3e5c03627"
+    url = "https://github.com/ZeetLex/knitting-library/archive/d825c56719e88cf0f3889da603c89a47b0e413cd.tar.gz"
+    sha256 = "55feb2bd77b7b8a811101d5a080f97ad824b1cdce03fd057a60511f4f96e4bfb"
 
     autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
+    allow_email = true
 
     [resources.install_dir]
 
