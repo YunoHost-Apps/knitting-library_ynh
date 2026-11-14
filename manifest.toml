@@ -6,7 +6,7 @@ id = "knitting-library"
 name = "Knitting Library"
 description.en = "Personal knitting pattern manager."
 
-version = "1.0.0~ynh1"
+version = "1.0.1~ynh1"
 
 maintainers = ["Thovi98"]
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ZeetLex/knitting-library/archive/refs/tags/1.0.0.tar.gz"
-    sha256 = "dac4600b336b2d3f7ed3e799841f979173668d9a4be1b3b94e3e454a5ffb4691"
+    url = "https://github.com/ZeetLex/knitting-library/archive/refs/tags/1.0.1.tar.gz"
+    sha256 = "cee187c9cb00fa68633581445fd52c30b431a5cd30bea4396d0e70821b1636ea"
 
     autoupdate.strategy = "latest_github_release"
 
